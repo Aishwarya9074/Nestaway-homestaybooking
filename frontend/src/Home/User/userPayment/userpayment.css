@@ -1,0 +1,60 @@
+.pay-body {
+  padding-top: 100px;
+  background-color: #f9f9f9;
+  background-image: url("/public/payment.png");
+  background-size: cover;
+  background-position: center;
+}
+.user-payment {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-payment h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-payment {
+  display: flex;
+  flex-direction: column;
+}
+
+.payments {
+  margin-bottom: 15px;
+}
+
+.payments label {
+  font-weight: bold;
+}
+
+.payments select,
+.payments input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.pay button {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pay button:hover {
+  background-color: #840720;
+}
+
+.toastify {
+  z-index: 999999;
+}

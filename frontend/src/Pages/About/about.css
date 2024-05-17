@@ -1,0 +1,89 @@
+
+
+.about {
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    max-width: 2000px;
+    /* margin: 0 auto; */
+   padding: 20px;
+    
+  
+   
+    
+}
+
+.image-container {
+    flex: 1;
+}
+
+.text-container {
+    flex: 2;
+}
+.about{
+    background: linear-gradient(rgb(199, 214, 216),rgb(25, 199, 92));
+    min-height: 100vh;
+}
+
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.about-content h1,
+.about-content h3,
+.about-content h4,
+.about-content p,
+.about-content ul {
+    margin: 0;
+    padding: 10px;
+}
+
+.text-container h1 {
+    color: blue;
+}
+
+.about-content h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about-content h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.about-content ul {
+    padding-left: 20px;
+}
+
+.about-content li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    list-style-type: disc; /* Default bullet points */
+}
+
+.about-content li strong {
+    color: #333333;
+}

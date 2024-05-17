@@ -1,0 +1,141 @@
+.userhome {
+  min-height: 100vh; /* Ensure the userhome container takes up at least the height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.homelist {
+  flex: 1; /* Allow the homelist to grow and take up remaining vertical space */
+}
+
+.footer {
+  /* background-color: #f8f9fa; */
+  padding: 30px 0;
+  color: #333;
+  text-align: center;
+  width: 100%; /* Ensure the footer spans the entire width */
+  bottom: 0; /* Stick the footer to the bottom of the viewport */
+  left: 0; /* Align the footer to the left */
+}
+
+.search-language-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin between search and language containers */
+}
+
+.search-container {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.search-container input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 70px;
+}
+.search-container input::placeholder{
+  padding: 40px;
+}
+
+.search-container .icon {
+  position: absolute;
+  top: 70%;
+  
+ left: 25px;
+  transform: translateY(-80%);
+}
+
+.icon i {
+  color: #aaa;
+}
+
+.language-container {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.language-container label {
+  margin-right: 5px;
+}
+
+.language-container select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.homelist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin: 40px;
+  padding-top: 50px;
+}
+
+.listcard {
+  width: 80%;
+  height: auto; /* Allow the height to adjust based on content */
+  padding: 20px;
+  box-shadow: 0px 7px 7px 7px rgb(205, 201, 201);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* Ensure content stacks vertically */
+  align-items: flex-start; /* Align content to the start of the card */
+  position: relative;
+}
+
+.listcard img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 550px;
+}
+
+.texts {
+  flex: 1; /* Allow the text to grow within the card */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.texts h3,
+.texts p {
+  margin: 0;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.texts h3 {
+  color: blue;
+  font-size: 30px;
+  /* Remove overflow property */
+}
+
+.texts strong {
+  color: blue;
+}
+
+.texts .more-btn {
+  width: 70%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(91, 18, 227);
+  color: white;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+.read  .read-btn{
+  width: 100px;
+  background-color: aqua;
+}
+
+.texts button:hover {
+  background-color: rgb(189, 16, 16);
+}

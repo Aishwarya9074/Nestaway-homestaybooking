@@ -1,0 +1,86 @@
+.usersign{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px 10px;
+  background: url('/public/host.webp') center/cover fixed;
+
+}
+.formsign h2{
+  text-align: center;
+  font-size: 30px;
+
+}
+.formsign button{
+  width: 100%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
+  font-weight: 700;
+  border-radius: 40px;
+  cursor:pointer ;
+  font-size: 16px;
+  color: grey;
+
+}
+.formsign button:hover{
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+.formsign{
+  width: 520px;
+  background: rgba(82, 75,75,0.5);
+  color: beige;
+  margin: 50px auto;
+  padding: 30px 40px ;
+  backdrop-filter: blur(10px);
+}
+ .formsign .signupfield{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+
+ }
+ .signupfield input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255,255,255,0.2);
+  border-radius: 40px;
+  font-size:16px ;
+  color: beige;
+ }
+ .signupfield input::placeholder{
+  color: white;
+ }
+.signupfield .icon{
+  position: absolute;
+  right: 30px;
+  top: 70%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+.sign-login img{
+  width: 100px;
+  height: auto;
+  margin-left: 130px;
+
+}
+.sign-login{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.sign-login h2{
+  text-align: center;
+  margin: 0 auto;
+margin-right: 200px;
+}

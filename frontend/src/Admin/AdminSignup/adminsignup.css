@@ -1,0 +1,79 @@
+.adminsign{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px 10px;
+    background: url('/public/adminsignup.jpg') center/cover fixed;
+
+}
+.form-adminsign h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+.form-adminsign button{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: grey;
+}
+.form-adminsign  button:hover{
+    background-color:rgb(25, 25, 25);
+    color: white;
+}
+.form-adminsign {
+    width: 520px;
+    background:rgba(82, 75,75,0.5) ;
+    color: beige;
+    margin: 50px auto;
+    padding: 30px 40px;
+    backdrop-filter: blur(10px);
+}
+.form-adminsign .signup-admin{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+.signup-admin input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,0.2) ;
+    border-radius: 40px;
+    font-size: 16px;
+    color: beige;
+}
+.signup-admin input::placeholder{
+    color: beige;
+}
+.signup-admin .icon-signup{
+    position: absolute;
+    right: 30px;
+    top: 70%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+.sign-admin-login img{
+    width: 100px;
+    height: auto;
+    margin-left: 130px;
+
+}
+.sign-admin-login{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}

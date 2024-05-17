@@ -1,0 +1,46 @@
+.servicecard h3 {
+  color: rgb(32, 104, 193);
+}
+.servicediv {
+  background: url("/public/mountain2.jpg") no-repeat;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
+  background-blend-mode: overlay; /* Apply the overlay blend mode */
+  position: relative;
+  background-size: cover;
+}
+
+.service h1 {
+  text-align: center;
+}
+.servicecard h3,
+li {
+  padding: 10px;
+}
+.service{
+    padding-top: 70px;
+}
+.servicecard {
+  width: 300px;
+  height: 300px;
+
+  padding: 10px;
+  box-shadow: 0px 0px 5px 5px grey;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+.servicediv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust as needed */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+.centerimg {
+  width: 1400px;
+  height: 400px;
+}
