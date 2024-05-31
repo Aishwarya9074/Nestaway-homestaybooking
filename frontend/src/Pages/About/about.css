@@ -1,40 +1,36 @@
-
-
 .about {
     padding: 20px;
+    background-color: #66666648;
+    min-height: 100vh;
 }
 
 .about-content {
     display: flex;
     max-width: 2000px;
-    /* margin: 0 auto; */
-   padding: 20px;
-    
-  
-   
-    
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px;
+    align-items: center; /* Align items vertically in the center */
 }
 
 .image-container {
     flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    margin-top: 40px;
+
+    margin-right: 10px;
+    width: 100vh;
+    height: 300vh; /* Full height of the viewport */
+    object-fit: cover; /* Cover the container */
+    border-radius: 20px;
 }
 
 .text-container {
     flex: 2;
-}
-.about{
-    background: linear-gradient(rgb(199, 214, 216),rgb(25, 199, 92));
-    min-height: 100vh;
-}
-
-
-.image-container img {
-    width: 100%;
-    border-radius: 10px;
-    padding: 10px;
-    height: auto;
-    margin-top: 100px;
-    border-radius: 20px;
+    margin-left: 20px; /* Add margin to the left side of the text */
 }
 
 .about-content h1,
@@ -47,7 +43,7 @@
 }
 
 .text-container h1 {
-    color: blue;
+    color: rgb(0, 255, 110);
 }
 
 .about-content h1 {
@@ -57,19 +53,20 @@
 }
 
 .about-content h3 {
-    font-size: 15px;
+    font-size: 18px; /* Adjusted font size for better readability */
     color: #666;
     margin-bottom: 20px;
 }
 
 .about-content h4 {
-    font-size: 20px;
+    font-size: 22px; /* Adjusted font size for better readability */
     color: #333;
     margin-bottom: 10px;
 }
 
 .about-content p {
     font-size: 16px;
+    color: #333;
     margin-bottom: 20px;
 }
 
@@ -85,5 +82,10 @@
 }
 
 .about-content li strong {
-    color: #333333;
+    color: #333;
+}
+.footer-div{
+    margin: -30px;
+    margin-top: 10px;
+    
 }

@@ -11,6 +11,7 @@ import UserBookingDetail from "./UserBookingDetails";
 import About from "./Pages/About/index"
 import Contact from "./Pages/Contact";
 import Service from "./Pages/Services";
+import Terms from "./Pages/Terms/index"
 import Home from "./Pages/Home";
 import HostHomestay from "./Home/Host/HostHomestay";
 import ConfirmationBooking from "./Home/Host/ConfirmationBooking";
@@ -58,6 +59,8 @@ const App=()=>{
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<Contact/>} />
       <Route path="/service" element={<Service/>} />
+      <Route path="/terms" element={<Terms/>} />
+
      
       
 

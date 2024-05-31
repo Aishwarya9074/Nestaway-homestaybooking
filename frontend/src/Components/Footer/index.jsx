@@ -17,7 +17,7 @@ const Footer=()=>{
                         <p>Contact</p>
                     </a>
                     <a href="">FAQs</a>
-                    <a href="">Terms of Services</a>
+                    <a href="/terms">Terms of Services</a>
                 </div>
                 <div className="sb_footer-links-div">
                     <p>Email:info@nestawayhomestaybooking.com</p>
