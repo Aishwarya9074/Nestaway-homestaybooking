@@ -68,7 +68,9 @@ const ConfirmationBooking = () => {
         ))}
       </div>
     </div>
-    <Footer/>
+   <div className="foot">
+   <Footer/>
+   </div>
   </div>
 </div>
   );

@@ -81,7 +81,9 @@ const HostHome = () => {
       <button onClick={addHomestayClick}>Add Homestay</button>
       <br/>
       </div>
-     <Footer/>
+    <div className="foot">
+    <Footer/>
+    </div>
     </div>
 </div>
   );

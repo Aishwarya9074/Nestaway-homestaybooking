@@ -1,16 +1,17 @@
 .booking-cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
 }
 
 .booking-card {
-    width:80%; /* Adjust the width to fit three cards per row with some space between them */
-    /* margin: 10px; Add margin to create space between cards */
+    width: 30%; /* Adjust the width to fit three cards per row with some space between them */
+    margin: 10px; /* Add margin to create space between cards */
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     border-radius: 8px;
-    background-color: #5251517d;
-    color: white;
+    background-color: #0d82dccc;
+    color: rgb(19, 18, 18);
 }
 
 .booking-card h3 {
@@ -33,27 +34,47 @@
 .booking-card button {
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: #106ed2;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: 10px;
+   margin: 20px;
 }
 
 .booking-card button:hover {
-    background-color: #0056b3;
+    background-color: #e06208;
 }
 
 .confirm-home {
     display: flex;
-    flex-direction: column; /* Change to column */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     width: 100%;
-    background: url("/public/confirm.webp") center/cover fixed; /* Ensure background-attachment is set to fixed */
-    background-attachment: fixed; /* Add this line to fix the background image */
-    padding: 0 10px; /* Add padding if necessary */
+    background: url("/public/confirm.webp") center/cover fixed;
+    background-attachment: fixed;
+    padding: 0 10px;
 }
+
+.confirm {
+    width: 100%;
+    max-width: 1200px; /* Add a max-width to center the content */
+}
+
+.confirm h1 {
+  text-align: center;
+  margin-top: 80px;
+  color: white;
+}
+/* li{
+    color: white;
+} */
+
+.foot {
+ margin-left: -10px;
+ 
+}
+
 

@@ -20,7 +20,7 @@ const AdminLogin=()=>{
             const response=await axios.post('/admin/login',adminLogin)
             console.log(response.data)
             saveCreds(response.data.token)
-            navigate('/admin/home')
+            navigate('/admin/dashboard')
         }
         catch(error){
             console.error('login failed',error)

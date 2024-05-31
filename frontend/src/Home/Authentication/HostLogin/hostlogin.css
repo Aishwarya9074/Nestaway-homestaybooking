@@ -67,7 +67,7 @@
 
 .hostlogin h1 {
   text-align: center;
-  margin: 0 auto; /* Center the heading */
+  margin: 0 auto; 
   margin-right:130px;
 }
 .input-host input {

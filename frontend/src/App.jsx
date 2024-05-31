@@ -20,6 +20,7 @@ import AdminSignup from "./Admin/AdminSignup";
 import AdminHome from "./Admin/AdminHome";
 import UserPayment from "./Home/User/userPayment";
 import PrivateRoute from "./Components/PrivateRoutes";
+import Dashboard from "./Admin/Dashboard";
 
 const App=()=>{
   return <div className="mainpage">
@@ -31,6 +32,7 @@ const App=()=>{
       <Route path="/user/login" element={<UserLogin/>} />
       <Route path="/user/signup" element={<UserSignup/>} />
       <Route path="/admin/home" element={<AdminHome/>}/>
+      <Route path="/admin/dashboard" element={<Dashboard/>}/>
       {/* private routes */}
      <Route element={<PrivateRoute role="HOST" />} > 
      <Route path="/homestay/:hostId" element={<HostHomestay/>} />

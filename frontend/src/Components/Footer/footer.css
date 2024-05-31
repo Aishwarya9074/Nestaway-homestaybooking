@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(121, 157, 188);
+  background-color: rgb(29, 9, 118);
 }
 .footer-padding{
     padding: 4rem 4rem;
@@ -52,14 +52,14 @@
     flex-direction: row;
 }
 .footer-below-links p{
-    font-size: 13px;
+    font-size: 18px;
     line-height: 15px;
     margin-left: 2rem;
     color: white;
     font-weight: 700;
 }
 .footer-copyright p{
-    font-size: 13px;
+    font-size: 19px;
     line-height: 15px;
     color: beige;
     font-size: 600;
